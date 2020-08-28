@@ -1,10 +1,10 @@
-This project implements a conventional neural network to identify which traffic sign appears in a photograph.
+This project implements a convolutional neural network to identify which traffic sign appears in a photograph.
 
 The data set used is provied by:
 J. Stallkamp, M. Schlipsing, J. Salmen, and C. Igel. The German Traffic Sign Recognition Benchmark: A multi-class classification competition. In Proceedings of the IEEE International Joint Conference on Neural Networks, pages 1453–1460. 2011,
 which can be downloaded from : http://benchmark.ini.rub.de/?section=gtsrb&subsection=news
 
-At first I tried the conventional network shown in CS50AI 2020 lecture 5 for the CNN. This CNN had:
+At first I tried the convolutional network shown in CS50AI 2020 lecture 5 for the CNN. This CNN had:
 A. One convolutional Layer that learns 32 filters using 2*2 kernels
 B. One max-pooling layer using 2*2 pool size
 C. 1 hidden layer with 128 nodes and a "relu" activation function
