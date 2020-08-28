@@ -10,11 +10,11 @@ which can be downloaded from **[here](http://benchmark.ini.rub.de/?section=gtsrb
 ## Walkthrough
 
 At first I tried the convolutional network shown in CS50AI 2020 lecture 5 for the CNN. This CNN had:
-A. One convolutional Layer that learns 32 filters using 2*2 kernels
-B. One max-pooling layer using 2*2 pool size
-C. 1 hidden layer with 128 nodes and a "relu" activation function
-D. dropout of 0.5 to avoid overfitting 
-E. An ouput layer with output units for all number of categoreies
+1. One convolutional Layer that learns 32 filters using 2*2 kernels
+2. One max-pooling layer using 2*2 pool size
+3. 1 hidden layer with 128 nodes and a "relu" activation function
+4. dropout of 0.5 to avoid overfitting 
+5. An ouput layer with output units for all number of categoreies
 
 This implementation of the CNN network did not prouduce satsifactory results on big datasets, accuaracy was around 60 %.
 
@@ -25,10 +25,10 @@ Finally I decided to repeat my layers of convolution and pooling in addition to 
 
 This is my **final structure** of the CNN:
 
-A. A convolutional layer  that learns 32 filters using 3*3 kernels
-B. A max-pooling layer using 2*2 pool size
-C. A second convolutional layer similar to the first
-D. A second pooling layer similar to the first
-E. One hidden layer with 512 node and a dropout of 0.5 to avoid overfitting
-E. An ouput layer with output units for all number of categoreies
+1. A convolutional layer  that learns 32 filters using 3 x 3 kernels
+2. A max-pooling layer using 2*2 pool size
+3. A second convolutional layer similar to the first
+4. A second pooling layer similar to the first
+5.  One hidden layer with 512 node and a dropout of 0.5 to avoid overfitting
+6.  An ouput layer with output units for all number of categoreies
 
